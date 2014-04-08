@@ -1,0 +1,56 @@
+
+p#copyright-footer{margin-top:135px;margin-bottom:30px;text-align:center;font-size:8pt;opacity:.5;white-space:nowrap}.copyright_footer{text-align:center;font-size:8pt;opacity:.5;white-space:nowrap}p#copyright-footer a,p#copyright-footer span{margin:0 20px;color:black}p#copyright-footer span a{margin:0;color:blue}
+
+a:visited {
+color: blue;
+}
+
+textarea {
+display: block;
+-webkit-box-flex: 1;
+min-height: 50px;
+font-size: 14pt;
+font-family: Calibri, sans-serif;
+}
+
+html, body {
+text-align: center;
+height: 100%;
+font-size: 14pt;
+font-family: Segoe UI, sans-serif;
+}
+
+body {
+-webkit-box-orient: vertical;
+display: -webkit-box;
+width: 600px;
+margin: 0 auto;
+background:url(../img/patterns/pattern02.png);
+}
+
+div#footer {
+margin-top: 20px;
+}
+
+div#footer a {
+display: block;
+float: left;
+text-align: left;
+}
+
+span#autosave_note {
+float: right;
+font:"Times New Roman", Times, serif;
+color:#C00;
+}
+
+p#copyright-footer {
+width: 100%;
+margin-top: 40px;
+margin-bottom: 3px;
+}
+
+.goog_ad {
+margin-left: -64px;
+margin-top: 24px;
+}

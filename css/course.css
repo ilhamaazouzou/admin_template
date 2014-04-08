@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Enriqueta);
+.h1{
+	font-size: 50px; 
+	font-weight: normal;
+	 margin-top: -20px; 
+    font-family: 'Sirin Stencil', cursive;
+    position: relative;
+    text-align: center;
+	border-top: 1px solid rgba(0,0,0,0.15);	
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	
+	-webkit-box-shadow: 0px 1px 0px 0px white, inset 0px 1px 0px 0px white;
+	-moz-box-shadow: 0px 1px 0px 0px white, inset 0px 1px 0px 0px white;
+	box-shadow: 0px 1px 0px 0px white, inset 0px 1px 0px 0px white;
+}
+
+                     
+.h2 {
+	font-family: 'LeagueGothicRegular', sans-serif; color:#444;
+    font-size: 32px; 
+	font-weight:100;
+    position: relative; 
+    margin-top: -30px; 
+    text-shadow: 1px 1px 0px #000;
+}
+
+.h3 {font-family: 'LeagueGothicRegular', sans-serif; color:#06F;
+	font-weight:100;
+	font-size: 20px; 
+    position: relative; 
+    margin-left: 40px; 
+    margin-top: 20px; 
+  
+}
+
+.h4 {font-family: 'LeagueGothicRegular', sans-serif; color:#930;
+	font-weight:100;
+	font-size: 17px; 
+    position: relative; 
+    margin-left: 80px; 
+    margin-top: 20px; 
+    text-shadow: 1px 1px 1px #ffa;
+	 display:block;
+	
+	color:#b2891b;
+	padding-top:10px;
+}
+
+
+
+.div{
+	font-size: 13px; 
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+
+font: normal 12px/1.5em ;
+ text-indent: 50px;
+  letter-spacing: 1px;
+  width: 70%;
+  
+}
+
+
+
+
+.div:first-letter {
+  font-size: 15pt;
+text-transform: uppercase;
+  COLOR:#33F;
+ 
+  
+}
+
+
+img{
+
+}
+audio{
+
+}
+video{
+
+}
+iframe{
+
+}
+
+
+
+
+
+
+
+
+#article{
+     counter-reset:titre2 titre3 titre4 titre5;
+     margin: auto;
+     width: 80%;
+}
+
+#article h2{
+     counter-increment:titre2;
+}
+#article h3{
+     counter-increment:titre3;
+}
+#article h4{
+     counter-increment:titre4;
+}
+#article h5{
+     counter-increment:titre5;
+}
+
+
+
+#article h2::before{
+     content: counter(titre2)"-";
+}
+#article h3::before{
+     content: counter(titre2)"."counter(titre3)"-";
+}
+#article h4::before{
+     content: counter(titre2)"."counter(titre3)"."counter(titre4)"-";
+}
+#article h5::before{
+     content: counter(titre2)"."counter(titre3)"."counter(titre4)"."counter(titre5)"-";
+}
+
+
+
+
+

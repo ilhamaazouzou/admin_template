@@ -1,0 +1,27 @@
+input[type=submit]{
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background-color:#C66;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #C66;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	width:170px;
+	margin:18px;
+}input[type=submit]:hover {
+	background-color:#C00;
+}
+
+
+input[type=submit]:active{
+	position:relative;
+	top:1px;
+}

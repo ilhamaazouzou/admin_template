@@ -1,0 +1,21 @@
+table.colored{
+margin:0;
+padding:0;
+}
+table.colored tr{
+margin:0;
+padding:0;
+}
+table.colored td{
+margin:0px;
+padding:5px;
+background-color:white;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	width:100px;
+}
+table.colored td.red{background-color:#C36;}
+table.colored td.green{background-color:#090;}
+table.colored td.blue{background-color:blue;}
+table.colored td.no{background-color:#999;}
